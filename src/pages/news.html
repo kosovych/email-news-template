@@ -1,0 +1,131 @@
+---
+subject: News letter
+---
+
+<container>
+<!-- NAV -->
+    <row>
+        <columns small="6" class="pl-0">
+            <img
+                width="120"
+                height="30"
+                src="https://via.placeholder.com/120x30?text=Logo"
+                alt="Logo"
+            >
+        </columns>
+        <columns small="6">
+            <p class="text-right mb-0" align="right">
+                <a class="nav-link" href="#">View in browser</a>
+            </p>
+        </columns>
+    </row>
+    <!-- HERO -->
+    <row>
+        <columns small="12" class="p-0">
+            <img
+                width="600"
+                height="300" 
+                src="https://via.placeholder.com/600x300"
+            >
+        </columns>
+    </row>
+    <spacer size="36"></spacer>
+    <!-- MAIN -->
+    <row>
+        <columns small="12">
+            <h1>Some test inside</h1>
+            <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Dignissim enim sit amet venenatis
+                urna. Scelerisque varius morbi enim nunc faucibus.
+            </p>
+            <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Dignissim enim sit amet venenatis
+                urna. Scelerisque varius morbi enim nunc faucibus.
+            </p>
+            <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Dignissim enim sit amet venenatis
+                urna. Scelerisque varius morbi enim nunc faucibus.
+            </p>
+
+            <button class="rounded" href="#">Button</button>
+        </columns>
+    </row>
+    <!-- POSTS -->
+    {{#repeat 2}}
+        <row>
+            <columns small="12" large="6">
+                <img
+                    width="600"
+                    src="https://via.placeholder.com/600x300"
+                >
+            </columns>
+            <columns small="12" large="6">
+                <h2>Some test inside</h2>
+                <p class="hint">
+                    06.12.2020 John Doe
+                </p>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a class="link" href="#">Link</a>
+            </columns>
+        </row>
+    {{/repeat}}
+    <!-- FOOTER -->
+    <row class="footer">
+        <columns small="7" class="pt-24 pb-24">
+            <img
+                width="120"
+                height="30"
+                src="https://via.placeholder.com/120x30?text=Logo"
+                alt="Logo"
+            >
+            <spacer size="36"></spacer>
+            <p class="footer__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#">Link</a>
+        </columns>
+        <columns small="5" class="pt-24 pb-24">
+            <p class="footer__text">
+                Box 564,<br>
+                Disneyland<br>
+                USA
+            </p>
+            <span class="social-wrapper">
+                <a class="social" href="#">
+                    <span class="helper">
+                        <img
+                            width="20"
+                            src="https://toppng.com/uploads/preview/facebook-f-icon-facebook-logo-png-white-11563016108d1db9g68rk.png"
+                            alt="Facebook"
+                        >
+                    </span>
+                </a>
+                <a class="social" href="#">
+                    <span class="helper">
+                        <img
+                            width="20"
+                            src="https://i.pinimg.com/originals/0f/1e/cd/0f1ecd724117e27390873d3e42b24571.jpg"
+                            alt="Instagram"
+                        >
+                    </span>
+                </a>
+                <a class="social" href="#">
+                    <span class="helper">
+                        <img
+                            width="20"
+                            src="https://c7.hotpng.com/preview/71/985/185/computer-icons-logo-social-media-black-twitter.jpg"
+                            alt="Twitter"
+                        >
+                    </span>
+                </a>
+            </span>
+        </columns>
+    </row>
+</container>
